@@ -486,3 +486,36 @@ form input{
     color: black;
 }
 
+.detail-grid-container{
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin: 50px;
+    padding: 50px;
+    color: #dfdfdf;
+}
+
+.detail-grid-container div{
+    padding: 10px;
+    background-color: rgba( 0, 0, 0, 0.5);
+    text-align: center;
+}
+.detail-grid-container div image{
+    align-content: center;
+}
+
+.detail-grid-container p{
+    text-align: left;
+    color: #dfdfdf;
+}
+
+
+
+.grid-item-3{
+    text-align: left;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+
